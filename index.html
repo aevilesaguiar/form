@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="form-dados">FORMULÁRIO DE CADASTRO</h1>
+    <form action="/registro" method="post" class="form-dados">
+        <p class="form-info">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+    </p>
+    <p class="form-info">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+    </p>
+    <p class="form-info">
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade">
+    </p>
+    <p class="form-info">
+        <label>Sexo:</label>
+        <select name="color" id="">
+            <option value="feminino">F</option>
+            <option value="masculino">M</option>
+
+        </select>
+    </p>
+    <p class="form-info">
+    <label for="comentario">Deixe seu comentário:</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10">Conteúdo</textarea>
+    </p>
+
+
+    <p class="form-info">
+        <button type="submit">Enviar</button>
+    </p> 
+    </form>
+</body>
+</html>
