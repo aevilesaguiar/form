@@ -5,7 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 h1{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -13,7 +12,7 @@ h1{
 }
 .flex-container{
     display: flex;
-    max-width: 1200px;
+    max-width: 1100px;
     align-items: center;
     margin: 0 auto;
 }
@@ -22,10 +21,13 @@ h1{
     padding: 20px;
 }
 
-
-
 .texto-info{
     color: #f1ae41;
+}
+
+.dado{
+    height: 40px;
+    padding-left: 15px;
 }
 
 .form-dados{
@@ -35,31 +37,48 @@ h1{
 
 .form-info{
 
-    margin: 20px;
+    margin: 15px;
 
 }
 
+.select-dado{
+    border:2px solid  #f1ae41;
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+    padding: 10px;
 
+}
 
 input{
     width: 400px;
     border:2px solid  #f1ae41;
+    outline: 0; /* ele remove a borda externa que fica no html*/
 }
 .dado-label{
     width: 130px;
 }
 
 textarea{
-    width: 400px;
+    width: 460px;
+    border:2px solid  #f1ae41;
+    border-radius: 10px;
+    outline: 0;
+    padding: 15px;
 }
 
 input{
     border-radius: 30px;
     height: 30px;
 }
+
+.dado-image{
+    margin: 0 auto;
+
+}
 button{
     height: 40px;
-    width: 100px;
+    width: 200px;
     border-radius: 20px;
     background-color:#0d63a7;
     color: aliceblue;
