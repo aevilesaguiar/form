@@ -2,16 +2,35 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+
 h1{
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #0d63a7;
 }
-.form-dados{
-    max-width: 800px;
-    padding: 20px;
-    margin: 0 auto;
-    font-size: 1.25em;
+.flex-container{
+    display: flex;
+    max-width: 1200px;
     align-items: center;
+    margin: 0 auto;
+}
+
+.info-logo{
+    padding: 20px;
+}
+
+
+
+.texto-info{
+    color: #f1ae41;
+}
+
+.form-dados{
+    padding: 20px;
+    font-size: 1.25em;
 }
 
 .form-info{
@@ -20,8 +39,11 @@ h1{
 
 }
 
+
+
 input{
     width: 400px;
+    border:2px solid  #f1ae41;
 }
 .dado-label{
     width: 130px;
@@ -39,7 +61,8 @@ button{
     height: 40px;
     width: 100px;
     border-radius: 20px;
-    background-color: blue;
+    background-color:#0d63a7;
     color: aliceblue;
     font-weight: 600;
 }
+

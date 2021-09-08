@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Cadastro</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1 class="form-dados">FORMULÁRIO DE CADASTRO</h1>
+<body><header>
+<div class="flex-container">
+    <div class="info-logo">
+    <img src="image/logo.png" alt="">
+    </div>
+    <h1 class="form-dados">Cadastre-se já, <span class="texto-info">é Simples e Rápido</span></h1>
+</div>
+</header>
+<main>
+<div class="flex-container">
+ <div>
     <form action="/registro" method="post" class="form-dados">
         <p class="form-info">
         <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome">
+        <input type="text" name="nome" id="nome" class="color-input">
     </p>
     <p class="form-info">
         <label for="email">E-mail:</label>
@@ -35,11 +48,21 @@
         <br>
         <textarea name="comentario" id="comentario" cols="30" rows="10">Conteúdo</textarea>
     </p>
-
+    <div class="flex-container">
+    <p class="form-info">
+        <button type="reset">Resetar</button>
+    </p> 
 
     <p class="form-info">
         <button type="submit">Enviar</button>
     </p> 
+</div>
     </form>
+</div>
+<div >
+    <img src="image/img-man 1 (1).png" alt="">
+</div>
+</main>
+</div>
 </body>
 </html>
